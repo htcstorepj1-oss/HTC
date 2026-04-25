@@ -1,2 +1,0 @@
-# HTC
-Teste de iptv
