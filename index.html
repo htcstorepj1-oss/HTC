@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>HTC AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <header>
+    🤖 HTC AI
+  </header>
+
+  <div id="chat"></div>
+
+  <div id="input-area">
+    <textarea id="input" placeholder="Pergunte qualquer coisa..." onkeydown="enter(event)"></textarea>
+    <button onclick="perguntar()">➤</button>
+  </div>
+
+</div>
+
+<script src="nlp.js"></script>
+<script src="corretor.js"></script>
+<script src="memoria.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
